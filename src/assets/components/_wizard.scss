@@ -1,0 +1,14 @@
+@layer components{
+  .wizard {
+    @apply flex flex-col gap-5 p-10;
+    &-header{
+      @apply flex-center p-10 bg-gray-100 rounded-xl flex items-center justify-between;
+    }
+    &-body{
+      @apply p-10 bg-gray-50
+    }
+    &-footer{
+      @apply p-5 bg-gray-100 rounded-xl flex items-center justify-between
+    }
+  }
+}
